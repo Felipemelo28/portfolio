@@ -8,9 +8,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.navigation { 
+.navigation {
 	background: #000000;
-	color: #7cc6fe; 
+	color: #7cc6fe;
 	height: 50px;
 
 	animation-name: navegacao;
@@ -21,14 +21,14 @@ body {
 	margin-top: 0;
 	list-style: none;
 	padding-left: 0;
-	text-align: right; 
+	text-align: right;
 	height: 50px;
 }
 
 .navigation li {
 	display: inline-block;
 	padding-left: 30px;
-	padding-right: 30px; 
+	padding-right: 30px;
 	line-height: 50px;
 	font-size: 18px;
 	font-weight: 100px;
@@ -44,20 +44,20 @@ body {
 }
 
 .navigation li.threeline-icon {
-	display: none;	
+	display: none;
 }
 
 .navigation li.threeline-icon:hover {
 	color: white;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 .capa {
-	color: #ffffff; 
+	color: #ffffff;
 }
 
 .capa span {
-	color: #7cc6fe; 
+	color: #7cc6fe;
 	display: block;
 }
 
@@ -178,7 +178,7 @@ body {
 .blackbox {
 	width: 100%;
 	height: 100%;
-	background-color: black;	
+	background-color: black;
 	opacity: 0;
 	padding-top: 140px;
 	transition: 2s;
@@ -210,7 +210,7 @@ body {
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 10px;
-}	
+}
 
 .back-link {
 	color: #7cc6fe;
@@ -232,7 +232,7 @@ body {
 }
 
 @keyframes navegacao {
-	0% {opacity: 0;} 
+	0% {opacity: 0;}
 	50% {opacity: 0;}
 	100% {opacity: 1}
 }
@@ -324,6 +324,3 @@ body {
 }
 
 }
-
-
-
